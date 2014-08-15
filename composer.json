@@ -1,0 +1,23 @@
+{
+    "name": "vinicius73/lavatar",
+    "description": "",
+    "authors": [
+        {
+            "name": "Vinicius Reis",
+            "email": "luiz.vinicius73@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Vinicius73\\Lavatar\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
