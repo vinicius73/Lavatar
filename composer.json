@@ -1,20 +1,16 @@
 {
     "name": "vinicius73/lavatar",
-    "description": "",
-    "authors": [
-        {
-            "name": "Vinicius Reis",
-            "email": "luiz.vinicius73@gmail.com"
-        }
-    ],
+    "description": "Have easy access to various services of avatar, like the Gravatar.",
+    "keywords": ["avatar", "gravatar"],
+    "authors": [{
+        "name": "Vinicius Reis",
+        "email": "luiz.vinicius73@gmail.com"
+    }],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
+        "php": ">=5.3.0",
+        "illuminate/support": "4.*"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Vinicius73\\Lavatar\\": "src/"
         }
