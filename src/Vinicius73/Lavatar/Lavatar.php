@@ -20,6 +20,7 @@ class Lavatar
    private $providersAvailable
       = array(
          'gravatar'  => 'Vinicius73\Lavatar\Providers\Gravatar',
+         'minecraft' => 'Vinicius73\Lavatar\Providers\Minecraft',
          'twitter'   => 'Vinicius73\Lavatar\Providers\AvatarsIO\Twitter',
          'facebook'  => 'Vinicius73\Lavatar\Providers\AvatarsIO\Facebook',
          'instagram' => 'Vinicius73\Lavatar\Providers\AvatarsIO\Instagram',

@@ -1,7 +1,7 @@
 <?php
 
 return array(
-   'default_provider' => 'Gravatar',
+   'default_provider' => 'gravatar',
    // Gravatar options
    'gravatar'         => array(
       's' => 120, // Size
@@ -16,5 +16,9 @@ return array(
    ),
    'intagram'         => array(
       'size' => 'large'
+   ),
+   'minecraft'        => array(
+      'size'      => 128,
+      'extension' => '.png'
    )
 );
