@@ -1,7 +1,7 @@
 {
     "name": "vinicius73/lavatar",
     "description": "Have easy access to various services of avatar, like the Gravatar.",
-    "keywords": ["avatar", "gravatar"],
+    "keywords": ["avatar", "gravatar", "Facebook", "Twitter", "Instagram", "avatars.io"],
     "authors": [{
         "name": "Vinicius Reis",
         "email": "luiz.vinicius73@gmail.com"

@@ -7,5 +7,14 @@ return array(
       's' => 120, // Size
       'r' => 'g', // Rating
       'd' => 'identicon' // Default
+   ),
+   'twitter'          => array(
+      'size' => 'large'
+   ),
+   'facebook'         => array(
+      'size' => 'large'
+   ),
+   'intagram'         => array(
+      'size' => 'large'
    )
 );

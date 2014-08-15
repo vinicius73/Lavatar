@@ -19,7 +19,10 @@ class Lavatar
 
    private $providersAvailable
       = array(
-         'gravatar' => 'Vinicius73\Lavatar\Providers\Gravatar'
+         'gravatar'  => 'Vinicius73\Lavatar\Providers\Gravatar',
+         'twitter'   => 'Vinicius73\Lavatar\Providers\AvatarsIO\Twitter',
+         'facebook'  => 'Vinicius73\Lavatar\Providers\AvatarsIO\Facebook',
+         'instagram' => 'Vinicius73\Lavatar\Providers\AvatarsIO\Instagram',
       );
 
    private $providersLoadeds = array();
@@ -36,7 +39,7 @@ class Lavatar
    /**
     * @param $identificator
     *
-    * @return $this
+    * @return Providers\ProvidersInterface
     */
    public function make($identificator)
    {
