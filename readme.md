@@ -94,6 +94,6 @@ Access more than one provider avatar is easy, just call him
  - [Gravatar](http://gravatar.com/)
  - [Minecraft (minotar)](https://minotar.net/)
  - [Avatars.io](http://avatars.io/)
-  - Facebook
-  - Twitter
-  - Instagram
+    - Facebook
+    - Twitter
+    - Instagram
