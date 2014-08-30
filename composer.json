@@ -1,6 +1,6 @@
 {
     "name": "vinicius73/lavatar",
-    "description": "Have easy access to various services of avatar, like the Gravatar.",
+    "description": "Have easy access to various services of avatar, like the Gravatar. Package for Laravel.",
     "keywords": ["avatar", "gravatar", "Facebook", "Twitter", "Instagram", "avatars.io"],
     "authors": [{
         "name": "Vinicius Reis",
