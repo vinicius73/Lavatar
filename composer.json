@@ -7,11 +7,11 @@
         "email": "luiz.vinicius73@gmail.com"
     }],
     "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "4.*"
+        "php": ">=5.5",
+        "illuminate/support": "5.*"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Vinicius73\\Lavatar\\": "src/"
         }
     },

@@ -1,8 +1,6 @@
 <?php namespace Vinicius73\Lavatar;
 
-use App;
 use Illuminate\Support\Collection;
-use Str;
 
 /**
  * Class Lavatar
@@ -13,7 +11,7 @@ use Str;
 class Lavatar
 {
    /**
-    * @var \Prologue\Support\Collection
+    * @var Collection
     */
    private $config;
 
@@ -56,7 +54,7 @@ class Lavatar
     */
    public function __call($provider, $args)
    {
-      $provider = Str::lower($provider);
+      $provider = mb_strtolower($provider);
 
       $provider = $this->getProvider($provider);
 
@@ -70,9 +68,10 @@ class Lavatar
     *
     * @return Providers\ProvidersInterface
     */
-   private function getProvider($provider)
+   public function getProvider($provider = null)
    {
-      $provider = Str::lower($provider);
+      $provider = (is_null($provider)) ? $this->defaultProvider : $provider;
+      $provider = mb_strtolower($provider);
 
       if (isset($this->providersLoadeds[$provider])):
          return $this->providersLoadeds[$provider];
@@ -92,7 +91,7 @@ class Lavatar
    {
       if (!isset($this->providersAvailable[$provider])) throw new \Exception('Lavatar provider ' . $provider . ' does not exist.');
 
-      $this->providersLoadeds[$provider] = App::make($this->providersAvailable[$provider]);
+      $this->providersLoadeds[$provider] = app($this->providersAvailable[$provider]);
 
       $options = $this->config->get($provider, array());
 
