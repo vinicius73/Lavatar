@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vinicius73\\Lavatar\\": "src/"
+            "Vinicius73\\Lavatar\\": "src/Lavatar/"
         }
     },
     "minimum-stability": "stable"
