@@ -3,7 +3,7 @@ Lavatar
 
 Have easy access to various services of avatar, like the Gravatar.
 
-## installation
+## Installation
 
 Add the new required package in your composer.json
 
@@ -16,16 +16,16 @@ Run `composer update` or `php composer.phar update`.
 After composer command, add new service provider in `app/config/app.php` :
 
 ```php
-    'Vinicius73\Lavatar\LavatarServiceProvider',
+    Vinicius73\Lavatar\LavatarServiceProvider::class,
 ```
 
 Now, add new aliases in `app/config/app.php`.
 
 ```php
-    'Lavatar' => 'Vinicius73\Lavatar\Facade\LavatarFacade',
+    'Lavatar' => Vinicius73\Lavatar\Facade\LavatarFacade::class,
 ```
 
-Finally publish the configuration file of the package `php artisan config:publish vinicius73/lavatar`
+Finally publish the configuration file of the package `php artisan vendor:publish vinicius73/lavatar`
 
 ## Usage
 
