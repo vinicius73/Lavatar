@@ -3,6 +3,8 @@ Lavatar
 
 Have easy access to various services of avatar, like the Gravatar.
 
+[![Latest Stable Version](https://poser.pugx.org/vinicius73/lavatar/v/stable)](https://packagist.org/packages/vinicius73/lavatar) [![Total Downloads](https://poser.pugx.org/vinicius73/lavatar/downloads)](https://packagist.org/packages/vinicius73/lavatar) [![Latest Unstable Version](https://poser.pugx.org/vinicius73/lavatar/v/unstable)](https://packagist.org/packages/vinicius73/lavatar) [![License](https://poser.pugx.org/vinicius73/lavatar/license)](https://packagist.org/packages/vinicius73/lavatar)
+
 ## Installation
 
 Add the new required package in your composer.json
