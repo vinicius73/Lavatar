@@ -4,5 +4,5 @@ use Illuminate\Support\Facades\Facade;
 
 class LavatarFacade extends Facade
 {
-   protected static function getFacadeAccessor() { return 'vinicius73.lavatar'; }
+   protected static function getFacadeAccessor() { return 'lavatar'; }
 }
