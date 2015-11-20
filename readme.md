@@ -7,10 +7,10 @@ Have easy access to various services of avatar, like the Gravatar.
 
 ## Installation
 
-Add the new required package in your composer.json
+Run `composer require vinicius73/lavatar` in your console, or add the new required package in your composer.json
 
 ```
-    "vinicius73/lavatar": "dev-master"
+    "vinicius73/lavatar": "0.6.*"
 ```
 
 Run `composer update` or `php composer.phar update`.
